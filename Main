@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFHS Writing Club</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #3d088c;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background: #28036c;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NFHS Writing Club</h1>
+        <p>Masterful tales from the students and staff at NFHS.</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#join">Join Us</a>
+        <a href="#stories">Stories</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About the Website</h2>
+            <p>Welcome to the NFHS Writing Club's website. Here, you can read some of our stories. These tales span multiple genres from realistic, comedic, fantastical, or full-on <em>horrifying!</em> Regardless, they're guaranteed to snatch your attention and maybe even raise an eyebrow.
+            </p>
+            <h2>Joining the Club</h2>
+            <p>
+                Want to join the club? No worries — joining is easy! All you have to do is show up for our weekly meetings. Here's some relevant information you should know to join:
+            </p>
+            <p><b>Meeting Information</b></p>
+            <ul>
+                <li>Location: Room 123</li>
+                <li>Time: Thursdays from 3:00 - 4:00 PM</li>
+                <li>Costs: None!</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
